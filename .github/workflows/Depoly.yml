@@ -24,4 +24,4 @@ jobs:
       run: |
         # Example: Deploy a resource group (You can replace it with your own resource deployment script)
         az group create --name MyResourceGroup --location eastus
-        az storage account create --name mystorageaccount --resource-group MyResourceGroup --location eastus --sku Standard_LRS
+        az storage account create --name mystoragexyz99 --resource-group MyResourceGroup --location eastus --sku Standard_LRS
