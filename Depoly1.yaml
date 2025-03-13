@@ -13,6 +13,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Azure Login
+       run: |
+         az login --identity
+
     - name: Deploy Resources
       run: |
         # Example: Deploy a resource group (You can replace it with your own resource deployment script)
