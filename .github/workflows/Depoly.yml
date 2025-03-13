@@ -14,11 +14,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Azure CLI
-      uses: azure/azure-cli-action@v1
-      with:
-        azure-cli-version: '2.x'
-
     - name: Azure Login
       run: |
         az login --identity --allow-no-subscriptions
